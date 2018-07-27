@@ -1,0 +1,60 @@
+<!DocType html>
+<html>
+
+<head>
+    <title>
+        Style Tracker
+    </title>
+    <script>if (typeof module === 'object') { window.module = module; module = undefined; }</script>
+	<link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./bower_components/jquery-ui/themes/ui-darkness/jquery-ui.min.css">
+    <script> $ = jQuery = require('jquery')</script>
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./bower_components/jquery-ui/jquery-ui.js"></script>  
+    <script src="./index.js"></script>
+    
+    <script>if (window.module) module = window.module;</script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" ><h2 style="color: whitesmoke">STYLE TRACKER</h2></a>
+        
+        <button class="btn btn-success" onclick="openfile()">Open File</button>
+        <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" ><h3 id="approaching"></h3></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" ><h3 id = "passed"></h3></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" ><h3 id = "ndate"></h3></a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" ><h3 id = "vname"></h3></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" ><h3 id = "vname"></h3></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" ><h3 id = "ndate"></h3></a>
+                </li>
+            </ul>
+    </nav>
+    <div class="container-fluid" style="position:relative; top: 100px">
+
+
+        <br />
+
+        <div class="datatable">
+            &nbsp;
+        </div>
+
+    </div>
+</body>
+
+</html>

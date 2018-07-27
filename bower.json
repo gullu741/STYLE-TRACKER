@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "description": "defaulter detector",
+  "main": "main.js",
+  "authors": [
+    "Gulshan <gulshan.sharma741@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "jquery-ui": "^1.12.1",
+    "jquery": "^3.3.1"
+  }
+}
